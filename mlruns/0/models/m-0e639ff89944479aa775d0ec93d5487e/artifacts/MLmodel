@@ -1,0 +1,27 @@
+artifact_path: /Users/faizshaikh/Documents/machine_learning/mlruns/0/models/m-0e639ff89944479aa775d0ec93d5487e/artifacts
+flavors:
+  keras:
+    data: data
+    keras_backend: tensorflow
+    keras_version: 3.12.0
+    save_exported_model: false
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.keras
+    python_version: 3.10.19
+is_signature_from_type_hint: false
+mlflow_version: 3.8.1
+model_id: m-0e639ff89944479aa775d0ec93d5487e
+model_size_bytes: 133903
+model_uuid: m-0e639ff89944479aa775d0ec93d5487e
+prompts: null
+run_id: 069a06ba5ece4b93910d35f8ae3fb3fd
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1, 7]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1,
+    6]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-01-29 19:23:00.886565'
